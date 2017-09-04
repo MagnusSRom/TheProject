@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <p>First name: <strong data-bind="text:firstname"></strong></p>
+    <p>Last name: <strong data-bind="text:lastname"></strong></p>
+</div>
+
+
+<p>First name: <strong data-bind="text:firstName1"></strong></p>
+<p>Last name: <strong data-bind="text:lastName2"></strong></p>
+
+<p>Hello World</p>
+
+<script>
+
+    function appmodel() {
+        this.firstname = "Go*";
+        this.lastname = "Freesgfsdgfsdgsdgsdlancer*";
+        this.firstName1 = "Bert";
+        this.lastName2 = "Bertington";
+    }
+    ko.applyBindings(new appmodel());
+
+
+</script>
