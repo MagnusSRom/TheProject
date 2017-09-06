@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using TheProject.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using TheProject.Data;
 
 namespace TheProject
 {

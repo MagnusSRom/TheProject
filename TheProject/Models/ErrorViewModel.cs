@@ -1,7 +1,4 @@
-using System;
-
-namespace TheProject.Models
-{
+﻿namespace TheProject.Models {
     public class ErrorViewModel
     {
         public string RequestId { get; set; }
